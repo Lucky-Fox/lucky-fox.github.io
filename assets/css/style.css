@@ -1,0 +1,1071 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: normal;
+  overflow-x: hidden;
+  color: #424646;
+  font-size: 24px;
+  font-family: 'Manrope', sans-serif; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+
+*:focus, *:active,
+button:focus,
+button:active,
+.button:focus,
+.button:active,
+a:focus,
+a:active {
+  outline: none; }
+
+ol,
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle; }
+
+textarea {
+  resize: none; }
+
+section {
+  position: relative; }
+
+input,
+select,
+button {
+  outline: none; }
+
+.container {
+  max-width: 100%;
+  width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.cap__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 29px 0 18px;
+  border-bottom: 1px solid #5e6464; }
+
+.phone {
+  font-weight: 500; }
+
+.menu_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.navigation {
+  padding: 30px 0; }
+
+.first__title {
+  font-family: 'Philosopher';
+  font-size: 72px; }
+  .first__title strong {
+    font-size: 85px; }
+
+.first {
+  background: url(../images/first.png) no-repeat center/cover;
+  color: #fff;
+  padding: 158px 0 77px; }
+
+.first__label {
+  font-size: 36px;
+  margin: 31px 0 74px; }
+
+.first_open-menu {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Philosopher';
+  position: relative;
+  text-align: center; }
+  .first_open-menu a {
+    position: relative;
+    z-index: 2; }
+  .first_open-menu:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url(../images/circle.png) no-repeat;
+    animation: 20s linear 0s normal none infinite running rot;
+    -webkit-animation: 20s linear 0s normal none infinite running rot; }
+
+.booking__left {
+  padding: 45px;
+  position: relative; }
+  .booking__left:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url(../images/circle2.png) no-repeat;
+    animation: 20s linear 0s normal none infinite running rot;
+    -webkit-animation: 20s linear 0s normal none infinite running rot; }
+
+@keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@-webkit-keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.social a {
+  display: block;
+  margin-top: 38px; }
+  .social a img {
+    margin: 0 auto; }
+
+.first__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.about__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.section__title {
+  font-size: 82px;
+  font-family: 'Philosopher';
+  line-height: 70px; }
+  .section__title span {
+    font-size: 48px;
+    color: #bb9781;
+    font-family: 'Satisfy';
+    display: block; }
+
+.about__left {
+  max-width: 546px; }
+
+.about__text {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 78px;
+  line-height: 42px; }
+
+.about__img {
+  position: relative;
+  padding: 40px 40px 40px 0; }
+  .about__img:after {
+    content: '';
+    display: block;
+    width: calc(100% - 94px);
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    border-radius: 5px;
+    background-color: #ece6e3;
+    z-index: 1; }
+  .about__img img {
+    position: relative;
+    z-index: 2; }
+
+.pulse {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+          box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite; }
+
+.pulse:hover {
+  -webkit-animation: none;
+          animation: none; }
+
+.about__play {
+  position: absolute;
+  bottom: 188px;
+  left: -80px;
+  z-index: 3; }
+
+.about__play_text {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  left: -185px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6); }
+  70% {
+    -webkit-box-shadow: 0 0 0 30px rgba(236, 230, 227, 0.5); }
+  100% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6); }
+  70% {
+    -webkit-box-shadow: 0 0 0 50px rgba(236, 230, 227, 0.5);
+            box-shadow: 0 0 0 50px rgba(236, 230, 227, 0.5); }
+  100% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.6); } }
+
+.about {
+  padding: 108px 0 222px;
+  background: url(../images/line.png) no-repeat center/cover; }
+
+.merits__item {
+  text-align: center; }
+  .merits__item img {
+    display: inline;
+    margin-right: -130px; }
+
+.merits__text {
+  font-size: 29px;
+  font-family: 'Philosopher';
+  margin-top: 51px; }
+
+.merits__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 60px; }
+
+.menu__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 95px; }
+  .menu__box > :nth-child(even) {
+    color: #424646; }
+    .menu__box > :nth-child(even) .menu__content {
+      margin-left: 0;
+      margin-right: auto; }
+  .menu__box > :nth-child(3) {
+    color: #424646; }
+  .menu__box > :nth-child(4) {
+    color: #fff; }
+
+.menu__item {
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 685px;
+  padding: 152px 0 30px; }
+
+.menu__content {
+  max-width: 505px;
+  margin-left: auto;
+  padding: 0 55px; }
+
+.menu__name {
+  font-size: 48px;
+  line-height: 36px;
+  font-family: 'Philosopher';
+  font-weight: normal;
+  min-height: 72px; }
+
+.menu__link {
+  font-size: 36px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.menu__text {
+  line-height: 32px;
+  margin: 28px 0 52px;
+  min-height: 158px; }
+
+.menu {
+  padding-top: 215px; }
+
+.booking__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.booking__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .booking__wrapper .booking__input {
+    width: 49%; }
+
+.booking__input {
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  width: 100%;
+  height: 70px;
+  padding-left: 35px;
+  margin-bottom: 40px; }
+
+.booking__right {
+  max-width: 100%;
+  width: 795px; }
+
+.booking__bootom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.datepicker-here {
+  margin: 0;
+  width: 435px;
+  background: url(../images/calendar.png) no-repeat 95% center; }
+
+.select {
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  height: 70px;
+  width: 175px;
+  padding: 0 30px; }
+
+.select__num {
+  width: 160px; }
+
+.booking__title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 48px; }
+
+.booking__button {
+  height: 101px;
+  border-radius: 5px;
+  background-color: #5b6d5b;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 42px;
+  font-family: 'Philosopher';
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-top: 48px; }
+
+.booking__concent {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 18px; }
+  .booking__concent a {
+    text-decoration: underline; }
+
+.booking__label {
+  font-size: 22px;
+  margin-bottom: 10px; }
+
+.booking {
+  padding: 250px 0 164px; }
+
+.activity__box {
+  background: url(../images/back.jpg) no-repeat center top;
+  padding-top: 34px; }
+
+.activity__item {
+  background: #ECE6E3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.activity__left {
+  max-width: 780px;
+  padding: 120px 40px 140px 140px; }
+
+.activity__name {
+  font-family: 'Philosopher';
+  font-size: 65px; }
+
+.activity__list {
+  margin: 42px 0 37px; }
+  .activity__list li {
+    padding-left: 26px;
+    background: url(../images/marker.png) no-repeat left center;
+    line-height: 33px;
+    margin: 4px 0; }
+
+.activity__link {
+  font-size: 36px;
+  font-family: 'Philosopher';
+  padding-bottom: 6px;
+  position: relative; }
+  .activity__link:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #424646;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+.slider__arrow {
+  border: 1px solid #424646;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative; }
+  .slider__arrow:after {
+    content: '';
+    display: block;
+    width: 85px;
+    height: 17px;
+    background: url(../images/arrow.png) no-repeat center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -30px; }
+
+.slider-next,
+.slider-next2,
+.slider-next3,
+.slider-next4,
+.slider-next5,
+.slider-next6,
+.slider-next7 {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.slider__controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px; }
+
+.activity__label {
+  font-size: 30px;
+  margin: 69px 0 59px; }
+
+.activity__cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 209px; }
+
+.activity__card {
+  width: 380px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 622px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #fff; }
+
+.activity__card_name {
+  font-family: 'Philosopher';
+  font-size: 36px;
+  padding-left: 27px; }
+
+.link__more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 71px;
+  background-color: #5b6d5b;
+  padding-left: 27px;
+  margin-top: 21px;
+  position: relative;
+  color: #fff; }
+  .link__more:after {
+    content: '';
+    display: block;
+    width: 102px;
+    height: 23px;
+    background: url(../images/arrow-dots.png) no-repeat;
+    position: absolute;
+    right: 40px;
+    top: 26px; }
+
+.activity__cards_content {
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Philosopher'; }
+
+.gallery__head_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.gallery__head_item {
+  font-size: 40px;
+  font-family: 'Philosopher';
+  color: #99a5a5;
+  cursor: pointer; }
+  .gallery__head_item.active {
+    color: #424646;
+    font-weight: bold;
+    position: relative; }
+    .gallery__head_item.active:after {
+      content: '';
+      display: block;
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background-color: #ece6e3;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      z-index: -1; }
+
+.gallery {
+  padding-top: 180px;
+  padding-bottom: 240px; }
+  .gallery .swiper-slide {
+    max-width: 887px; }
+
+.gallery__head {
+  margin-bottom: 61px;
+  margin-top: 80px; }
+
+.gallery__body__item {
+  display: none; }
+
+.gallery__body__item--1 {
+  display: block; }
+
+.delivery__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #5b6d5b url(../images/line-dev.png) no-repeat right bottom;
+  color: #fff;
+  position: relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .delivery__box .section__title {
+    width: 415px;
+    margin: 0 auto; }
+
+.delivery__center {
+  min-width: 663px; }
+
+.delivery__text {
+  width: 415px;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 71px;
+  margin-bottom: 173px; }
+  .delivery__text p {
+    margin-top: 33px; }
+
+.delivery__phone {
+  font-size: 48px;
+  font-family: 'Philosopher';
+  padding: 12px 0px 12px 90px;
+  display: block;
+  background: url(../images/phone-call.png) no-repeat left center;
+  margin-left: 49px; }
+
+.delivery__list {
+  font-size: 24px;
+  position: relative;
+  bottom: -155px;
+  margin-bottom: 40px; }
+
+.delivery__right {
+  width: 573px;
+  position: relative;
+  bottom: -113px; }
+  .delivery__right img {
+    position: relative;
+    bottom: -155px; }
+
+.promo__item {
+  width: 489px;
+  max-width: 100%; }
+  .promo__item .link__more {
+    margin: 0; }
+
+.promo__content {
+  padding: 55px 60px 79px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.promo__name {
+  font-family: 'Philosopher';
+  font-size: 30px;
+  margin-bottom: 30px;
+  min-height: 67px; }
+
+.promo {
+  padding-top: 380px; }
+  .promo .slider__controls {
+    margin: 60px 0 20px; }
+
+.select__partys {
+  width: 345px; }
+
+.reviews__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.reviews__right {
+  max-width: 885px;
+  padding-left: 30px;
+  padding-bottom: 230px; }
+
+.reviews__name {
+  font-size: 48px;
+  font-family: 'Philosopher'; }
+
+.reviews__date {
+  font-size: 28px;
+  font-family: 'Philosopher';
+  margin: 30px 0 50px; }
+
+.reviews__text {
+  font-size: 30px;
+  line-height: 41px; }
+
+.reviews__thumbs_item {
+  width: 270px; }
+
+.mySwiper {
+  width: 570px;
+  max-width: 100%; }
+
+.reviews__thumbs_item {
+  position: relative; }
+
+.reviews__thumbs_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  padding: 12px 15px; }
+
+.reviews__thumbs {
+  max-width: 100%;
+  width: 885px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.reviews .container {
+  position: relative; }
+
+.reviews__thumbs {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  padding-left: 30px; }
+
+.reviews__slider {
+  margin-top: 93px; }
+
+.reviews {
+  padding-bottom: 220px; }
+
+.inst__label {
+  font-size: 30px;
+  margin-top: 30px; }
+  .inst__label a {
+    color: #bc9680; }
+
+.inst__link {
+  border-radius: 50%;
+  background-color: #ece6e3;
+  width: 291px;
+  height: 291px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: -120px;
+  margin-left: 270px; }
+
+.inst_box {
+  text-align: center; }
+  .inst_box img {
+    margin: 0 auto; }
+
+.inst__text {
+  font-family: 'Philosopher';
+  font-size: 30px;
+  color: #5b6d5b;
+  font-weight: bold;
+  margin-top: 30px; }
+
+.inst__photos {
+  height: 967px;
+  background: url(../images/inst.jpg) no-repeat center top;
+  margin-top: 184px; }
+
+.contacts__text {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 68px 0 43px; }
+
+.contacts__phones a {
+  display: block;
+  font-size: 36px; }
+
+.contacts__email {
+  color: #4156af;
+  text-decoration: underline;
+  font-size: 36px;
+  display: block;
+  margin-top: 22px; }
+
+.contacts__social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px; }
+  .contacts__social a {
+    display: block;
+    margin-right: 30px; }
+
+.contacts__button {
+  border-radius: 5px;
+  background-color: #5b6d5b;
+  width: 451px;
+  height: 71px;
+  border: none;
+  font-family: 'Philosopher';
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  margin-top: 20px; }
+
+.contacts__text2 {
+  margin: 38px 0 50px; }
+
+.contacts__right {
+  width: 861px;
+  height: 726px;
+  border-radius: 5px;
+  background: url(../images/line-contacts.png) no-repeat center;
+  background-size: cover; }
+
+.contacts__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.contacts__img {
+  margin-top: 50px;
+  margin-left: -40px; }
+
+.contacts {
+  padding: 166px 0 77px; }
+
+.footer__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.footer {
+  background: #5b6d5b;
+  color: #fff;
+  padding: 41px 0; }
+
+.footer__text a {
+  display: block;
+  text-decoration: underline;
+  margin-top: 10px; }
+
+.footer__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.footer__top_img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: relative;
+  margin-left: 28px; }
+  .footer__top_img:after {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 86px;
+    background: url(../images/up-arrow.png) no-repeat;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin: auto; }
